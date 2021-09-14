@@ -71,11 +71,11 @@ namespace CvrApiAsyncHttpClient
             public string Creditstartdate { get; set; }
             public int? Creditstatus { get; set; }
             public bool Creditbankrupt { get; set; }
-            public ApipPoductionunits[] Productionunits { get; set; }
+            public ApiProductionunits[] Productionunits { get; set; }
             public int T { get; set; }
             public int Version { get; set; } 
         }
-        public class ApipPoductionunits
+        public class ApiProductionunits
         {
             public string Pno { get; set; }
             public string Name { get; set; }
